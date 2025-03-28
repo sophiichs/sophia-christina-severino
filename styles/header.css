@@ -1,0 +1,35 @@
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+    }
+
+  .container{
+    display: flex;
+    align-items: center;
+    }
+
+.container imagem, .container frase{
+    padding: 1em;
+    }
+
+ .container titulo, .container frase{
+    display:none;
+    }
+
+    @media screen and (min-width: 820px) {
+        /* ...propriedades css */
+    }
+
+
+
+
+
+    
+
+    @media screen and (min-width: 1024) {
+        .container_frase{
+            paddin-left: 5em;
+            font-size: 20p;
+            display: block;
+        }
+    }
